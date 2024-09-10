@@ -1,6 +1,32 @@
-body{
-    margin: 0 auto;
+body {
+  margin: 0 auto;
+  font-size: 12px; 
 }
+
+@media (min-width: 425px) {
+  body {
+      font-size: 0.875rem; 
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+      font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1028px) {
+  body {
+      font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+      font-size: 2rem;
+  }
+}
+
 :root {
     --background-color: #ff5d18;
     --color:#ff5d18;
@@ -42,15 +68,4 @@ body{
   .border_img img{
     border-radius: 100%;
   }
-  @media (max-width: 374px) {
-    .text_service{
-     font-size:0.75rem;
-    }
-  }
-  .banner_home img{
-    border-radius: 1.25rem;
-  }
-  .hover_menu:hover{
-    color:#ff5d18 ;
-    transition: 0.3s;
-  }
+
